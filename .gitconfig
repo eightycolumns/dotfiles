@@ -1,0 +1,9 @@
+[user]
+	name = Drew Keller
+	email = drew@eightycolumns.com
+
+[core]
+	editor = vim
+
+[color]
+	ui = never

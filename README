@@ -1,0 +1,17 @@
+DOTFILES
+
+  My dotfiles.
+
+INSTALL
+
+  make
+
+  or
+
+  make install
+
+  Remember to source ~/.bashrc after install.
+
+UNINSTALL
+
+  make uninstall

@@ -48,4 +48,5 @@ export CHROME_BIN=google-chrome
 
 append_to_path '/usr/local/concourse/bin'
 
+prepend_to_path "${HOME}/.local/bin"
 prepend_to_path "${HOME}/bin"

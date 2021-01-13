@@ -11,6 +11,7 @@ alias pip='/usr/local/bin/pip3.8'
 alias play='sndfile-play'
 alias rm='rm --interactive'
 alias tmux='tmux -2'
+alias youtube-dl='youtube-dl --extract-audio --audio-format mp3'
 
 stty -ixon
 

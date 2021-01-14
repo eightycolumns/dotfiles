@@ -28,24 +28,4 @@ tree() {
 
 export -f tree
 
-export SDKMAN_DIR="${HOME}/.sdkman"
-source "${SDKMAN_DIR}/bin/sdkman-init.sh"
-
-append_to_path "${HOME}/spring-2.1.9.RELEASE/bin"
-
-export NVM_DIR=${HOME}/.nvm
-source "${NVM_DIR}/nvm.sh"
-source "${NVM_DIR}/bash_completion"
-nvm use --lts > /dev/null
-
-append_to_path "${HOME}/.rbenv/bin"
-append_to_path "${HOME}/.rbenv/shims"
-
-source <(kubectl completion bash)
-
-export CHROME_BIN=google-chrome
-
-append_to_path '/usr/local/concourse/bin'
-
 prepend_to_path "${HOME}/.local/bin"
-prepend_to_path "${HOME}/bin"

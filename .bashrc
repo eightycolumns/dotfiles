@@ -7,7 +7,6 @@ unalias -a
 alias cp='cp --interactive'
 alias emacs='emacs --color=never --no-window-system'
 alias mv='mv --interactive'
-alias pip='/usr/local/bin/pip3.8'
 alias play='sndfile-play'
 alias rm='rm --interactive'
 alias tmux='tmux -2'

@@ -1,4 +1,4 @@
-source "${HOME}/lib/path.sh"
+source "${HOME}/.local/lib/path.sh"
 
 export PS1="[\u@\h \W]$ "
 

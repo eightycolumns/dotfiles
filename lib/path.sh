@@ -1,4 +1,4 @@
-source "${HOME}/lib/util.sh"
+source "${HOME}/.local/lib/util.sh"
 
 remove_from_path() {
   (($# < 1)) && die 'remove_from_path() expects one or more arguments'

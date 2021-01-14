@@ -13,7 +13,7 @@ install_dotfiles := $(dotfiles:%=install_%)
 .PHONY: install
 install: $(install_libs) $(install_dotfiles)
 
-lib_dir := $(HOME)/lib
+lib_dir := $(HOME)/.local/lib
 
 .PHONY: $(install_libs)
 $(install_libs): | $(lib_dir)
@@ -31,7 +31,7 @@ $(install_dotfiles):
 uninstall_dotfiles := $(dotfiles:%=uninstall_%)
 
 .PHONY: uninstall
-uninstall: $(uninstall_dotfiles) remove_lib_dir 
+uninstall: $(uninstall_dotfiles) remove_lib_dir
 
 .PHONY: $(uninstall_dotfiles)
 $(uninstall_dotfiles):

@@ -4,11 +4,11 @@ export PS1="[\u@\h \W]$ "
 
 unalias -a
 
-alias cp='cp --interactive'
+alias cp='cp -i'
 alias emacs='emacs --color=never --no-window-system'
-alias mv='mv --interactive'
+alias mv='mv -i'
 alias play='sndfile-play'
-alias rm='rm --interactive'
+alias rm='rm -i'
 alias tmux='tmux -2'
 alias youtube-dl='youtube-dl --extract-audio --audio-format mp3'
 
